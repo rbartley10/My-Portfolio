@@ -1,0 +1,126 @@
+body
+{
+  background-color: lightblue;
+}
+
+#num1
+{
+  border-radius: 5px;
+  border-color: blue;
+  border-style: solid;
+  border-width: medium;
+}
+#num2
+{
+  border-radius: 5px;
+  border-color: blue;
+  border-style: solid;
+  border-width: medium;
+}
+#num3
+{
+  border-radius: 5px;
+  border-color: blue;
+  border-style: solid;
+  border-width: medium;
+}
+
+#lb1
+{
+  font-style: oblique;
+  color: blue;
+}
+#lb2
+{
+  font-style: oblique;
+  color: blue;
+}
+#lb3
+{
+  font-style: oblique;
+  color: blue;
+}
+#max_div
+{
+  font-weight: bold;
+  color: blue;
+}
+#min_div
+{
+  font-weight: bold;
+  color: blue;
+}
+#med_div
+{
+  font-weight: bold;
+  color: blue;
+}
+#avg_div
+{
+  font-weight: bold;
+  color: blue;
+}
+#range_div
+{
+  font-weight: bold;
+  color: blue;
+}
+#sub
+{
+  color: white;
+}
+#btn_submit
+{
+  display: inline-block;
+}
+#btn_clear
+{
+  opacity: 75%;
+  display: inline-block;
+}
+
+#text_prompt
+{
+  font-weight: bold;
+  color: blue;
+}
+
+#results1
+{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#results2
+{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#results3
+{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.result
+{
+  flex-basis: 20%;
+
+}
+.result1
+{
+  flex-basis: 20%;
+
+}
+
+#right{
+  text-align: center;
+  padding-top: 5%;
+}

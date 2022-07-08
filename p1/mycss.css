@@ -1,0 +1,102 @@
+body
+{
+    background-color: blue;
+}
+header
+{
+  text-align: center;
+  font-size: 40px;
+  background-color: rgb(68,201,199);
+  border-style: solid;
+}
+#jump_links
+{
+  font-size: 30px;
+}
+#headTB
+{
+  text-align: left;
+  color: rgb(70,131,179);
+}
+#obj
+{
+  background-color: rgb(68,201,199);
+  border-style: solid;
+  font-size: 20px;
+}
+#edu
+{
+  background-color: rgb(68,201,199);
+  border-style: solid;
+}
+#exp
+{
+  background-color: rgb(68,201,199);
+  border-style: solid;
+}
+#skills
+{
+  background-color: rgb(68,201,199);
+  border-style: solid;
+}
+#awards
+{
+  background-color: rgb(68,201,199);
+  border-style: solid;
+}
+#community_service
+{
+  background-color: rgb(68,201,199);
+  border-style: solid;
+}
+#exp_list
+{
+  padding-left: 40px;
+}
+#title_btn1
+{
+  background-color: rgb(70,131,179);
+  color: cyan;
+}
+#title_btn2
+{
+  background-color: rgb(70,131,179);
+  color: cyan;
+}
+#title_btn3
+{
+  background-color: rgb(70,131,179);
+  color: cyan;
+}
+#title_btn4
+{
+  background-color: rgb(70,131,179);
+  color: cyan;
+}
+#title_btn5
+{
+  background-color: rgb(70,131,179);
+  color: cyan;
+}
+#myresume
+{
+  border-style: double;
+  border-radius: 20px;
+}
+#face
+{
+  border-style: double;
+  border-radius: 20px;
+}
+#cape
+{
+  border-style: solid;
+}
+#cxc
+{
+  border-style: solid;
+}
+footer
+{
+  text-align: center;
+}

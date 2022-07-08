@@ -1,0 +1,102 @@
+#p1
+{
+  text-align: center;
+}
+
+#my_project
+{
+  display: inline-flex;
+  animation-name: drop;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+
+#dropdownMenuButton
+{
+  font-weight: bold;
+}
+
+@keyframes drop {
+  0% {visibility: hidden; transform: translateY(-100px);}
+  35% {visibility: visible; transform: translateY(20px);}
+  50% {visibility: visible; transform: translateY(-15px);}
+  65% {visibility: visible; transform: translateY(10px);}
+  80% {visibility: visible; transform: translateY(-10px);}
+  100%{visibility: visible; transform: translateY(0px);}
+
+}
+
+#arrowLink
+{
+  display: inline-flex;
+  animation-name: point_drop;
+  animation-duration: 2s;
+  animation-delay: 2s;
+}
+
+@keyframes point_drop {
+  0% {visibility: hidden; transform: translateY(-50px);}
+  35% {visibility: visible; transform: translateY(30px);}
+  50% {visibility: visible; transform: translateY(-15px);}
+  65% {visibility: visible; transform: translateY(10px);}
+  80% {visibility: visible; transform: translateY(-10px);}
+  100%{visibility: visible; transform: translateY(0px);}
+
+}
+
+
+#web_projects
+{
+  background-color: #f4623a;
+  color: white;
+}
+#python_projects
+{
+  background-color: #f4623a;
+  color: white;
+}
+#model3D_projects
+{
+  background-color: #f4623a;
+  color: white;
+}
+#c_projects
+{
+  background-color: #f4623a;
+  color: white;
+}
+.project-header
+{
+  background-color: #f4623a;
+  color: white;
+}
+#portfolio
+{
+  background-color: grey;
+  font-weight: bold;
+  background: url(bg-projects.jpg);
+}
+#descriptSect
+{
+  background: url(bg-projects.jpg);
+
+}
+#description
+{
+  color: black;
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+#cbtn
+{
+  color: white;
+  border-radius: 5px;
+  border-color: black;
+  padding: 10px;
+  font-weight: bold;
+}
+footer
+{
+  background-color: #343a40;
+  color: white;
+}

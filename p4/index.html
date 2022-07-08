@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>TIC TAC TOE GAME</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="styles.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="mycss.css">
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <div class="container px-4 px-lg-5">
+            <a class="navbar-brand fw-bold" id="game_title">TIC TAC TOE</a>
+            <div><button class="btn btn-primary" type="button" name="button" id="btnRestart">RESTART GAME</button></div>
+          </div>
+        </nav>
+        <!-- Product section-->
+        <section class="py-5">
+          <div class="container px-4 px-lg-5 my-3">
+            <div class="row gx-4 gx-lg-5 align-items-center">
+              <div class="col-md-6">
+                <div class="fs-4 mb-3" id="currentTurn">Now Playing: X</div>
+                <div class="fs-4 mb-3" id="tictactoe"></div>
+                <div class="fs-4 mb-3" visibility="hidden"> <span id="tic">TIC</span> <span id="tac">TAC</span> <span id="toe">TOE</span></div>
+              </div>
+              <div class="col-md-6" id="scores">
+                <h1 class="display-5 fw">Scores</h1>
+                <div class="fs-3 mb-2" id="scoreX">Player X score: 0</div>
+                <div class="fs-3 mb-2" id="scoreO">Player O score: 0</div>
+              </div>
+            </div>
+            <div class="modal" tabindex="-1" role="dialog" id="myModal1">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header" id="modal1Head">
+                    <h5 class="modal-title" id="winnerText">WINNER!</h5>
+                  </div>
+                  <div class="modal-body" id="mod1_body">
+                    <div class="container-fluid">
+                      <img id="win_pic" src="img_win.jpg"  alt="Winner Picture">
+                    </div>
+                  </div>
+                  <div class="modal-footer" id="modal1Foot">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal" tabindex="-1" role="dialog" id="myModal2">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header" id="modal2Head">
+                    <h5 class="modal-title" id="nowinText">NO WINNER! Play Again</h5>
+                  </div>
+                  <div class="modal-body" id="mod2_body">
+                    <div class="container-fluid">
+                      <div class="row">
+                      <img id="nowin_pic" src="img_no_win.jpg"  alt="No Winner Picture">
+                    </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer" id="modal2Foot">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Related items section-->
+
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">author: Romari Bartley <br> developer: Romari Bartley <br> Theme by Bootstrap</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- Core theme JS-->
+        <script src="myscript.js"></script>
+        <script src="scripts.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,121 @@
+body{
+
+  /*background: linear-gradient(to bottom right,#d3fc03,#ffbb00);*/
+  background-color: #d3fc03;
+}
+
+.nav-link:hover{
+  animation-name: change;
+  animation-duration: .1s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+.img-profile{
+  animation-name: scalebounce;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+#name{
+  display: inline-flex;
+  animation-name: drop;
+  animation-duration: 1.5s;
+  animation-delay: 0s;
+}
+
+@keyframes change{
+  from {transform: scale(1);}
+  to{color: #d3fc03;}
+}
+
+@keyframes scalebounce {
+  0% {transform: scale(1.15);}
+  20%{transform: scale(1.05);}
+  40%{transform: scale(1.12);}
+  65%{transform: scale(1.07);}
+  80%{transform: scale(1.10);}
+  100%{transform: scale(1.085);}
+}
+
+@keyframes drop{
+  0% {visibility: hidden; transform: translateY(-50px);}
+  80% {visibility: visible; transform: translateY(0px);}
+  85% {visibility: visible; transform: translateY(-10px);}
+  90% {visibility: visible; transform: translateY(0px);}
+  95% {visibility: visible; transform: translateY(-5px);}
+  100%{visibility: visible; transform: translateY(0px);}
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child:first-child {
+    margin-right: 5px;
+}
+
+
+#dropdownMenuButton1
+{
+  background-color: #bd5d38;
+}
+
+#dropdownMenuButton2
+{
+  background-color: #bd5d38;
+}
+
+
+#dropright
+{
+  background-color: #bd5d38;
+  width: 20%;
+
+}
+
+#portrait {
+   background-color: #d3fc03;
+   box-shadow: inset 5px 5px;
+}
+#world
+{
+  width: 300px;
+}
+#skill_gallery
+{
+  background-color: blue;
+  border-color: red;
+}
+
+.dev-applications{
+  display: block;
+}
+
+.btn{
+  color:#d3fc03;
+  font-weight: bolder;
+}
+
+#modal_awards
+{
+  background-color: rgb(68,201,199);
+}
+
+#modal_skills
+{
+  background-color: rgb(68,201,199);
+}
+
+
+
+footer
+{
+  background-color: #94c714;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

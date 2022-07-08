@@ -1,0 +1,160 @@
+body
+{
+  background-color: cyan;
+}
+#tictactoe
+{
+  font-size: 2em;
+}
+#game_title
+{
+  color: blue;
+}
+#board
+{
+  color: blue;
+  border-width: medium;
+  border-color: blue;
+  animation-name: drop;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+/*#board:hover{
+  animation-name: change;
+  animation-duration: .1s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}*/
+#cell:hover{
+  animation-name: change;
+  animation-duration: .1s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+#cell{
+  border-style:solid;
+  border-width: thin;
+  border-color: blue;
+  font-weight: bolder;
+}
+#currentTurn
+{
+  color: blue;
+  animation-name: appear;
+  animation-duration: 1.7s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+#tic
+{
+  color: blue;
+  animation-name: tic_fadeIO;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+#tac
+{
+  color: blue;
+  animation-name: tac_fadeIO;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+#toe
+{
+  color: blue;
+  animation-name: toe_fadeIO;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+#mod1_body
+{
+  background-color: #FFD700;
+}
+#mod2_body
+{
+  background-color: #FFD700;
+}
+#win_pic
+{
+  max-width: 100%;
+  max-height: 100%;
+}
+#nowin_pic
+{
+  max-width: 100%;
+  max-height: 100%;
+}
+#scores
+{
+  color: blue;
+}
+#modal1Head
+{
+  background-color: #0096ed;
+}
+#modal1Foot
+{
+  background-color: #0096ed;
+}
+#modal2Head
+{
+  background-color: #d62409;
+}
+#modal2Foot
+{
+  background-color: #d62409;
+}
+footer
+{
+    background-color: #94c714;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@keyframes drop{
+  from{transform: translateY(-200px);opacity: 0%}
+  to{transform: translateY(0px) rotateZ(360deg); opacity: 100%;}
+}
+
+@keyframes change{
+  from {}
+  /*to{background-color: #d3fc03;}*/
+  to{border-style:solid; border-width: medium; border-color: red;}
+}
+@keyframes appear
+{
+  0%{opacity: 0%;}
+  60%{opacity: 0%;}
+  100%{opacity: 100%;}
+}
+@keyframes tic_fadeIO
+{
+  0%{opacity: 0%;}
+  15%{opacity: 100%;}
+  45%{opacity: 0%;}
+  90%{opacity: 0%;}
+  100%{opacity: 0%;}
+}
+@keyframes tac_fadeIO
+{
+  0%{opacity: 0%;}
+  15%{opacity: 0%;}
+  30%{opacity: 100%;}
+  60%{opacity: 0%;}
+  90%{opacity: 0%;}
+  100%{opacity: 0%;}
+}
+@keyframes toe_fadeIO
+{
+  0%{opacity: 0%;}
+  15%{opacity: 0%;}
+  30%{opacity: 0%;}
+  60%{opacity: 100%;}
+  90%{opacity: 0%;}
+  100%{opacity: 0%;}
+}
